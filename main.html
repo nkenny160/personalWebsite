@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Kenny - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Instrument+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Dhurjati, sans;
+            font-size: x-large;
+            font-weight: 100;
+            background-color: #CDD977;
+            color: #0D2601;
+        }
+        header {
+            text-align: center;
+            color: #0D2601;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #headshot {
+            max-width: 25%;
+            height: auto;
+            border-radius: 50%;
+        }
+        section {
+            margin-top: 20px;
+            width: 60%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            color: #0D2601;
+        }
+        h1 {
+            color: #1B7302;
+            font-size: 75px;
+        }
+        h2 {
+            color: #1B7302;
+        }
+        ul {
+            list-style-type: disc;
+            padding: 15px;
+            margin-left: 40px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nicholas Kenny</h1>
+        <h2>Software Engineering Student</p>
+    </header>
+
+    <img id="headshot" src="./assets/IMG_1065.jpg" alt="nk-headshot">
+
+    <section>
+        <h2>Who is this guy?</h2>
+        <p>
+            I am a computer science student at Santa Clara University with strong foundations in Python/C++/Java with an interest in applying machine learning in
+            robotics, automation, and motorsport applications to solve real world problems. My expertise includes working with object
+            oriented languages using frameworks, like ROS and Ruby on Rails, to conduct motion planning and full stack web
+            development. Additionally, I am well versed with hands-on work such as prototyping robots using 3D printing, building high
+            voltage electrical test equipment, and repairing automotive engines. I am a fast learner and thrive in collaborative team
+            environments. I enjoy taking on new challenges and solving complex problems.
+        </p>
+    </section>
+
+    <section>
+        <h2>For the Algorithm</h2>
+        <p>Download my resume <a href="https://drive.google.com/file/d/1IBnmdwN9UJPEGklkQavB8G2TTANCWkLI/view?usp=sharing" target="_blank">here</a>.</p>
+    </section>
+
+    <section>
+        <h2>Cool Stuff I Have Made or Haven't Finished Yet</h2>
+        <ul>
+            <li>
+                <h3>Biznify</h3>
+                <img src="./assets/biznify.jpg" alt="biznify-website">
+                <p>
+                    Biznify is a website that helps prospective small business owners find the ideal place to setup shop. This website was implemented by
+                    my team of two and I for the annual Inrix Hackathon in just under 24 hours and earned top 6 projects out of 43 competitors. Our app queries
+                    data from Datafiniti on retail space available for rent based on a location that the user enters. We then use tranportation data from Inrix to
+                    rank the results based on parking availability and trips to a specified location, with the option to add more data in the future if we were to deploy
+                    this as a service. I used the Google Maps API to render the front end maps display for the recommended locations.
+                </p>
+                <h4>Nerdy Bits (what tech did I use)</h4>
+                <ul>
+                    <li>Next.Js</li>
+                    <li>TailwindCSS</li>
+                    <li>React</li>
+                    <li>Google Maps, Datafiniti, and Inrix APIs</li>
+                </ul>
+            </li>
+            
+            <li>
+                <h3>PACRR: Piloted Autonomous Crisis reconnaissance Robot</h3>
+                <img src="./assets/dingo.jpg" alt="robot-dog">
+                <p>
+                    The aim of PACRR is to create a low cost, autonomous capable quadruped robot for first responder applications 
+                    like search and rescue, detecting gas leaks, and other situations where it is dangerous or too confined for humans. 
+                    We are starting with an open source design for a 3D printed robot dog, then modifying it to be better suited for 
+                    rugged and unsafe applications.  Companies like Boston Dynamics have demonstrated that quadruped robots are not simply 
+                    novelty but have actual life-saving capabilities in dangerous situations during their partnership with the New York 
+                    Fire Department. However, these robots are nearly $75,000, which is far out of the budget for smaller fire departments 
+                    and other disaster relief organizations. Our design will be cheaper, simpler, and more expendable, allowing even small 
+                    organizations to use it.
+                </p>
+                <h4>Nerdy Bits (what tech did I use)</h4>
+                <ul>
+                    <li>Robot Operating System (ROS)</li>
+                    <li>Python</li>
+                    <li>Raspberry PI</li>
+                    <li>Ubuntu 20.04</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Chuck, a Robot that Plays Checkers</h3>
+                <img src="./assets/ChuckdaCheckersBot.jpg" alt="robot-arm-that-plays-checkers">
+                <p>Watch Chuck Play <a href="https://youtu.be/DGBd_ofv7tk?si=9FuymIACm8TTpgKr" target="_blank">here</a> !</p>
+                <p>
+                    This was my final project for ELEN 131 - intro to robotics - at SCU. I collaborated with a team of 3 to develop a game application for the 
+                    Franka Emika Panda Robot, simulating a checkerboard and pieces deploying the Move-It Python library. I was responsible for designing the gameplay scene, 
+                    enabling the robot to interact with virtual game elements. Additionally I implemented a tf2 path planning algorithm for calculating trajectories and executing 
+                    gameplay using the ROS Python framework.
+                </p>
+                <h4>Nerdy Bits (what tech did I use)</h4>
+                <ul>
+                    <li>Robot Operating System (ROS)</li>
+                    <li>Python</li>
+                    <li>Ubuntu 20.04</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
